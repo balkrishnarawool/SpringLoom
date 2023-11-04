@@ -25,8 +25,8 @@ public class CustomerUtil {
     }
 
     private static double getRandomInterestRate() {
-        int t = (int) (1 + Math.random() * 500);
-        return t / 100d;
+        int t = (int) (Math.random() * 500);
+        return 1 + (t / 100d);
     }
 
     public record Customer() {}
