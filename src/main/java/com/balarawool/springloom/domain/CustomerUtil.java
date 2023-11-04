@@ -1,6 +1,6 @@
-package com.balarawool.simpleapp.domain;
+package com.balarawool.springloom.domain;
 
-import static com.balarawool.simpleapp.domain.ThreadUtil.logAndWait;
+import static com.balarawool.springloom.domain.ThreadUtil.logAndWait;
 
 public class CustomerUtil {
 

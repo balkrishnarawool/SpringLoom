@@ -1,4 +1,4 @@
-package com.balarawool.simpleapp;
+package com.balarawool.springloom;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

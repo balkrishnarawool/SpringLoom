@@ -1,4 +1,4 @@
-package com.balarawool.simpleapp;
+package com.balarawool.springloom;
 
 import org.junit.jupiter.api.Test;
 

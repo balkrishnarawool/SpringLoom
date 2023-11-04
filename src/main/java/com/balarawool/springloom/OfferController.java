@@ -1,12 +1,10 @@
-package com.balarawool.simpleapp;
+package com.balarawool.springloom;
 
-import com.balarawool.simpleapp.domain.CustomerUtil;
-import com.balarawool.simpleapp.domain.CustomerUtil.CustomerDetails;
-import com.balarawool.simpleapp.domain.CustomerUtil.Offer;
+import com.balarawool.springloom.domain.CustomerUtil;
+import com.balarawool.springloom.domain.CustomerUtil.Offer;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import java.util.concurrent.CompletableFuture;
 import java.util.concurrent.ExecutionException;
 import java.util.concurrent.StructuredTaskScope;
 

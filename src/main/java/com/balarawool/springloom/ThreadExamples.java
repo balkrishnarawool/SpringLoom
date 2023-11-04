@@ -1,4 +1,4 @@
-package com.balarawool.simpleapp;
+package com.balarawool.springloom;
 
 import java.util.concurrent.Executors;
 

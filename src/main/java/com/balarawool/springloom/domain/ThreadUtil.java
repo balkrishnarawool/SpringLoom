@@ -1,4 +1,4 @@
-package com.balarawool.simpleapp.domain;
+package com.balarawool.springloom.domain;
 
 public class ThreadUtil {
     public static void logAndWait(String task) {
