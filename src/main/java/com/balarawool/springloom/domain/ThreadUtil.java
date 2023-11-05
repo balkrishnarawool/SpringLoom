@@ -1,12 +1,18 @@
 package com.balarawool.springloom.domain;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
 public class ThreadUtil {
+
+    static Logger logger = LoggerFactory.getLogger(ThreadUtil.class);
+
     public static void logAndWait(String task) {
         long delay = (long)(Math.random() * 10);
-        System.out.println("Thread: " + getThreadName() + " Performing task: " + task + "() will take " + delay + " seconds");
+        logger.info("Thread: " + getThreadName() + " Performing task: " + task + "() will take " + delay + " seconds");
         try {
             Thread.sleep(delay * 1_000);
-            System.out.println("Done task: " + task + "()");
+            logger.info("Done task: " + task + "()");
         } catch (InterruptedException e) {
             throw new RuntimeException(e);
         }
